@@ -1,0 +1,105 @@
+@charset "utf-8";
+body {
+	background-image: url(bg.jpg);
+	background-repeat: repeat;
+}
+#container {
+	background-color: #FFF;
+	padding: 10px;
+	height: auto;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+}
+#header {
+	height: 150px;
+	width: 980px;
+}
+#logo {
+	height: 150px;
+	width: 189px;
+	float: left;
+	background-image: url(1b069c08879c4323b3a7362155124fad.gif);
+}
+#menü {
+	background-image: url(bgMenu.png);
+	height: 40px;
+	width: 790px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 55px;
+}
+#container #header #menü ul {
+	padding: 0px;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+#container #header #menü ul li a {
+	display: block;
+	float: left;
+	height: 40px;
+	width: 110px;
+	text-decoration: none;
+	color: #077936;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+#container #header #menü ul li a:hover {
+	display: block;
+	float: left;
+	height: 40px;
+	width: 110px;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+#clear-header {
+	clear: both;
+}
+#banner {
+	height: 303px;
+	width: 980px;
+	margin-top: 10px;
+	background-image: url(bgSlide.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 12px;
+}
+#divider {
+	height: 26px;
+	width: 980px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#content {
+	height: 200px;
+	width: 980px;
+}
+#content-left {
+	background-color: #F2ECD2;
+	height: 198px;
+	width: 298px;
+	border: 1px solid #666;
+	float: left;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 40px;
+}
+#content-center {
+	height: 200px;
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#content-right {
+	height: 200px;
+	width: 340px;
+	float: left;
+}
